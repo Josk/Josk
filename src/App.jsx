@@ -12,7 +12,7 @@ function App() {
         <img src={resolvePath('/profile/profile_pic.jpeg')} alt="Romain Pedra" className="profile-pic" />
         <h1>Romain Pedra</h1>
         <p className="intro-text">
-          Game Developer & UI Programmer. Passionate about creating immersive experiences.
+          12 years Game Developer & UI Programmer. Passionate about UI development and creating immersive experiences.
         </p>
       </header>
 
