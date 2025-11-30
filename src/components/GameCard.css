@@ -15,6 +15,22 @@
 .game-content {
     padding: 1.5rem;
     flex-grow: 1;
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.game-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    background: white;
+    border-radius: var(--radius-md);
+    flex-shrink: 0;
+}
+
+.game-info {
+    flex: 1;
 }
 
 .game-header {

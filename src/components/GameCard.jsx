@@ -29,20 +29,23 @@ const GameCard = ({ game }) => {
     return (
         <article className="game-card">
             <div className="game-content">
-                <div className="game-header">
-                    <h3>{game.title}</h3>
-                    <span className="game-role">{game.role}</span>
-                </div>
+                {game.logo && <img src={resolvePath(game.logo)} alt={`${game.title} logo`} className="game-logo" />}
+                <div className="game-info">
+                    <div className="game-header">
+                        <h3>{game.title}</h3>
+                        <span className="game-role">{game.role}</span>
+                    </div>
 
-                <p className="game-description">{game.description}</p>
+                    <p className="game-description">{game.description}</p>
 
-                <div className="game-tags">
-                    {game.tags.map(tag => (
-                        <span key={tag.label} className="tag">
-                            {tag.icon && <img src={resolvePath(tag.icon)} alt="" className="tag-icon" />}
-                            {tag.label}
-                        </span>
-                    ))}
+                    <div className="game-tags">
+                        {game.tags.map(tag => (
+                            <span key={tag.label} className="tag">
+                                {tag.icon && <img src={resolvePath(tag.icon)} alt="" className="tag-icon" />}
+                                {tag.label}
+                            </span>
+                        ))}
+                    </div>
                 </div>
             </div>
             {screenshots.length > 0 && (
