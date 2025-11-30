@@ -71,6 +71,23 @@
                     "Android"
                 ],
                 "youtube": "https://www.youtube.com/watch?v=teyCUEoCexo"
+            },
+            {
+                "id": "harry",
+                "title": "Harry le jeu de mot",
+                "description": "Mobile adaptation of a french tv program.",
+                "role": "Lead Mobile Programmer",
+                "tags": [
+                    "C#",
+                    "Unity",
+                    "iOS",
+                    "Android"
+                ],
+                "screenshots": [
+                    "/screenshots/harry1.avif",
+                    "/screenshots/harry2.avif",
+                    "/screenshots/harry3.avif"
+                ]
             }
         ]
     }
