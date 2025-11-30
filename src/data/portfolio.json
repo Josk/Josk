@@ -70,6 +70,12 @@
                     "iOS",
                     "Android"
                 ],
+                "screenshots": [
+                    "/screenshots/sq1.avif",
+                    "/screenshots/sq2.avif",
+                    "/screenshots/sq3.avif",
+                    "/screenshots/sq4.avif"
+                ],
                 "youtube": "https://www.youtube.com/watch?v=teyCUEoCexo"
             },
             {
