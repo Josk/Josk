@@ -3,11 +3,13 @@ import './App.css'
 import portfolioData from './data/portfolio.json'
 import CompanySection from './components/CompanySection'
 
+import { resolvePath } from './utils'
+
 function App() {
   return (
     <div className="app-container">
       <header className="main-header">
-        <img src="public/profile/profile_pic.jpeg" alt="Romain Pedra" className="profile-pic" />
+        <img src={resolvePath('/profile/profile_pic.jpeg')} alt="Romain Pedra" className="profile-pic" />
         <h1>Romain Pedra</h1>
         <p className="intro-text">
           Game Developer & UI Programmer. Passionate about creating immersive experiences.
