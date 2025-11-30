@@ -25,9 +25,30 @@
                     "/screenshots/ted12.png"
                 ],
                 "tags": [
-                    "C#",
-                    "UI",
-                    "Unity"
+                    {
+                        "label": "C#",
+                        "icon": "/icons/csharp.png"
+                    },
+                    {
+                        "label": "UI",
+                        "icon": "/icons/ui.png"
+                    },
+                    {
+                        "label": "Unity",
+                        "icon": "/icons/unity.svg"
+                    },
+                    {
+                        "label": "Steam",
+                        "icon": "/icons/steam.svg"
+                    },
+                    {
+                        "label": "PS4/PS5",
+                        "icon": "/icons/ps.svg"
+                    },
+                    {
+                        "label": "Xbox One/Series",
+                        "icon": "/icons/xbox.svg"
+                    }
                 ],
                 "youtube": "https://www.youtube.com/watch?v=pBV0kgxbE5s"
             }
@@ -52,10 +73,22 @@
                     "/screenshots/am5.png"
                 ],
                 "tags": [
-                    "C#",
-                    "Unity",
-                    "iOS",
-                    "Android"
+                    {
+                        "label": "C#",
+                        "icon": "/icons/csharp.png"
+                    },
+                    {
+                        "label": "Unity",
+                        "icon": "/icons/unity.svg"
+                    },
+                    {
+                        "label": "iOS",
+                        "icon": "/icons/ios.svg"
+                    },
+                    {
+                        "label": "Android",
+                        "icon": "/icons/android.png"
+                    }
                 ],
                 "youtube": "https://www.youtube.com/watch?v=xjPt-OLYoHE"
             },
@@ -65,10 +98,22 @@
                 "description": "Mobile adaptation of a french tv program. The goal is to find words based on letters rotating around themselves in rings.",
                 "role": "Lead Mobile Programmer",
                 "tags": [
-                    "C#",
-                    "Unity",
-                    "iOS",
-                    "Android"
+                    {
+                        "label": "C#",
+                        "icon": "/icons/csharp.png"
+                    },
+                    {
+                        "label": "Unity",
+                        "icon": "/icons/unity.svg"
+                    },
+                    {
+                        "label": "iOS",
+                        "icon": "/icons/ios.svg"
+                    },
+                    {
+                        "label": "Android",
+                        "icon": "/icons/android.png"
+                    }
                 ],
                 "screenshots": [
                     "/screenshots/harry1.avif",
@@ -82,12 +127,30 @@
                 "description": "Take control of a plane during takeoff and make it fly as far as possible despite losing an engine on the nearest runway!",
                 "role": "Lead Mobile Programmer",
                 "tags": [
-                    "C#",
-                    "Unity",
-                    "iOS",
-                    "tvOS",
-                    "Gyro control",
-                    "Android"
+                    {
+                        "label": "C#",
+                        "icon": "/icons/csharp.png"
+                    },
+                    {
+                        "label": "Unity",
+                        "icon": "/icons/unity.svg"
+                    },
+                    {
+                        "label": "iOS",
+                        "icon": "/icons/ios.svg"
+                    },
+                    {
+                        "label": "tvOS",
+                        "icon": "/icons/tv.png"
+                    },
+                    {
+                        "label": "Gyro control",
+                        "icon": "/icons/gyro.png"
+                    },
+                    {
+                        "label": "Android",
+                        "icon": "/icons/android.png"
+                    }
                 ],
                 "screenshots": [
                     "/screenshots/pp1.jpeg",
@@ -103,10 +166,22 @@
                 "description": "SpeedQuizz is a mobile quiz game where players can test their knowledge. You progress through multiple environments, in a car and can compare your progression with your friends.",
                 "role": "Lead Mobile Programmer",
                 "tags": [
-                    "C#",
-                    "Unity",
-                    "iOS",
-                    "Android"
+                    {
+                        "label": "C#",
+                        "icon": "/icons/csharp.png"
+                    },
+                    {
+                        "label": "Unity",
+                        "icon": "/icons/unity.svg"
+                    },
+                    {
+                        "label": "iOS",
+                        "icon": "/icons/ios.svg"
+                    },
+                    {
+                        "label": "Android",
+                        "icon": "/icons/android.png"
+                    }
                 ],
                 "screenshots": [
                     "/screenshots/sq1.avif",
