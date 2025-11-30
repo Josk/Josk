@@ -3,7 +3,7 @@
         "id": "amplitude",
         "name": "Amplitude Studios",
         "logo": "/logos/amplitude_studios_logo.jpeg",
-        "description": "A leading studio for strategy games.",
+        "description": "Founded in 2011, Amplitude Studios is famous for its strategy and 4X games. It's a community centric game studio, that created a community platform called \"Games2Gether\". The studio is well knowned for it's 4X games: Endless Space, Endless Legend or Humankind.",
         "games": [
             {
                 "id": "endless-dungeon",
@@ -37,7 +37,7 @@
         "id": "playrion",
         "name": "Playrion",
         "logo": "/logos/playrion.png",
-        "description": "A Paradox mobile specialized game studio",
+        "description": "Founded in 2010, Playrion is a web/mobile game studio focused on strategy and management games. It's best known for Airlines Manager and Airport Simulator: First Class. In 2020, Player became part of the Paradox studios ecosystem.",
         "games": [
             {
                 "id": "airlines-manager",
@@ -62,7 +62,7 @@
             {
                 "id": "harry",
                 "title": "Harry le jeu de mot",
-                "description": "Mobile adaptation of a french tv program.",
+                "description": "Mobile adaptation of a french tv program. The goal is to find words based on letters rotating around themselves in rings.",
                 "role": "Lead Mobile Programmer",
                 "tags": [
                     "C#",
@@ -100,7 +100,7 @@
             {
                 "id": "speedquizz",
                 "title": "SpeedQuizz",
-                "description": "SpeedQuizz is a mobile quiz game where players can test their knowledge.",
+                "description": "SpeedQuizz is a mobile quiz game where players can test their knowledge. You progress through multiple environments, in a car and can compare your progression with your friends.",
                 "role": "Lead Mobile Programmer",
                 "tags": [
                     "C#",
