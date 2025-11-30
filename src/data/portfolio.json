@@ -7,6 +7,7 @@
         "games": [
             {
                 "id": "endless-dungeon",
+                "logo": "/logos/ted.jpeg",
                 "title": "Endless Dungeon",
                 "description": "Plunge into an abandoned space station alone or with friends in co-op, recruit a team of shipwrecked heroes, and protect your crystal against never-ending waves of monsters... or die trying, get reloaded, and try again.",
                 "role": "Lead UI Programmer",
@@ -63,6 +64,7 @@
             {
                 "id": "airlines-manager",
                 "title": "Airlines Manager",
+                "logo": "/logos/am.webp",
                 "description": "Airlines Manager is a free aviation management game. In the game, you manage your airline like a real tycoon and strategize to become the greatest CEO in the aviation world!",
                 "role": "Lead Mobile Programmer",
                 "screenshots": [
@@ -95,6 +97,7 @@
             {
                 "id": "harry",
                 "title": "Harry le jeu de mot",
+                "logo": "/logos/harry.avif",
                 "description": "Mobile adaptation of a french tv program. The goal is to find words based on letters rotating around themselves in rings.",
                 "role": "Lead Mobile Programmer",
                 "tags": [
@@ -124,6 +127,7 @@
             {
                 "id": "planepanic",
                 "title": "Plane Panic",
+                "logo": "/logos/pp.png",
                 "description": "Take control of a plane during takeoff and make it fly as far as possible despite losing an engine on the nearest runway!",
                 "role": "Lead Mobile Programmer",
                 "tags": [
@@ -163,6 +167,7 @@
             {
                 "id": "speedquizz",
                 "title": "SpeedQuizz",
+                "logo": "/logos/sq.webp",
                 "description": "SpeedQuizz is a mobile quiz game where players can test their knowledge. You progress through multiple environments, in a car and can compare your progression with your friends.",
                 "role": "Lead Mobile Programmer",
                 "tags": [
