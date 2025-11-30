@@ -60,6 +60,44 @@
                 "youtube": "https://www.youtube.com/watch?v=xjPt-OLYoHE"
             },
             {
+                "id": "harry",
+                "title": "Harry le jeu de mot",
+                "description": "Mobile adaptation of a french tv program.",
+                "role": "Lead Mobile Programmer",
+                "tags": [
+                    "C#",
+                    "Unity",
+                    "iOS",
+                    "Android"
+                ],
+                "screenshots": [
+                    "/screenshots/harry1.avif",
+                    "/screenshots/harry2.avif",
+                    "/screenshots/harry3.avif"
+                ]
+            },
+            {
+                "id": "planepanic",
+                "title": "Plane Panic",
+                "description": "Take control of a plane during takeoff and make it fly as far as possible despite losing an engine on the nearest runway!",
+                "role": "Lead Mobile Programmer",
+                "tags": [
+                    "C#",
+                    "Unity",
+                    "iOS",
+                    "tvOS",
+                    "Gyro control",
+                    "Android"
+                ],
+                "screenshots": [
+                    "/screenshots/pp1.jpeg",
+                    "/screenshots/pp2.jpeg",
+                    "/screenshots/pp3.jpeg",
+                    "/screenshots/pp4.jpeg"
+                ],
+                "youtube": "https://www.youtube.com/shorts/CHSsVJPTSGU"
+            },
+            {
                 "id": "speedquizz",
                 "title": "SpeedQuizz",
                 "description": "SpeedQuizz is a mobile quiz game where players can test their knowledge.",
@@ -77,23 +115,6 @@
                     "/screenshots/sq4.avif"
                 ],
                 "youtube": "https://www.youtube.com/watch?v=teyCUEoCexo"
-            },
-            {
-                "id": "harry",
-                "title": "Harry le jeu de mot",
-                "description": "Mobile adaptation of a french tv program.",
-                "role": "Lead Mobile Programmer",
-                "tags": [
-                    "C#",
-                    "Unity",
-                    "iOS",
-                    "Android"
-                ],
-                "screenshots": [
-                    "/screenshots/harry1.avif",
-                    "/screenshots/harry2.avif",
-                    "/screenshots/harry3.avif"
-                ]
             }
         ]
     }
