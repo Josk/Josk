@@ -1,0 +1,35 @@
+[
+    {
+        "id": "amplitude",
+        "name": "Amplitude Studios",
+        "logo": "/logos/amplitude_studios_logo.jpeg",
+        "description": "A leading studio for strategy games.",
+        "games": [
+            {
+                "id": "endless-dungeon",
+                "title": "Endless Dungeon",
+                "description": "Plunge into an abandoned space station alone or with friends in co-op, recruit a team of shipwrecked heroes, and protect your crystal against never-ending waves of monsters... or die trying, get reloaded, and try again.",
+                "role": "Lead UI Programmer",
+                "screenshots": [
+                    "/screenshots/ted1.png",
+                    "/screenshots/ted2.png",
+                    "/screenshots/ted3.png",
+                    "/screenshots/ted4.png",
+                    "/screenshots/ted5.png",
+                    "/screenshots/ted6.png",
+                    "/screenshots/ted7.png",
+                    "/screenshots/ted8.png",
+                    "/screenshots/ted9.png",
+                    "/screenshots/ted10.png",
+                    "/screenshots/ted11.png",
+                    "/screenshots/ted12.png"
+                ],
+                "tags": [
+                    "C#",
+                    "UI",
+                    "Unity"
+                ]
+            }
+        ]
+    }
+]
