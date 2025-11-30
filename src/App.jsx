@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="app-container">
       <header className="main-header">
+        <img src="public/profile/profile_pic.jpeg" alt="Romain Pedra" className="profile-pic" />
         <h1>Romain Pedra</h1>
         <p className="intro-text">
           Game Developer & UI Programmer. Passionate about creating immersive experiences.
