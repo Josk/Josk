@@ -8,12 +8,23 @@ const GameCard = ({ game }) => {
     const [initialGalleryIndex, setInitialGalleryIndex] = useState(0)
 
     // Resolve all screenshot paths
-    const screenshots = game.screenshots ? game.screenshots.map(resolvePath) : []
+    const screenshots = Array.isArray(game.screenshots)
+        ? game.screenshots.map(resolvePath).filter(Boolean)
+        : []
 
     const openGallery = (index) => {
         setInitialGalleryIndex(index)
         setShowGallery(true)
     }
+
+    const getYoutubeVideoId = (url) => {
+        if (!url) return null
+        const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/
+        const match = url.match(regExp)
+        return (match && match[2].length === 11) ? match[2] : null
+    }
+
+    const videoId = getYoutubeVideoId(game.youtube)
 
     return (
         <article className="game-card">
@@ -31,7 +42,6 @@ const GameCard = ({ game }) => {
                     ))}
                 </div>
             </div>
-
             {screenshots.length > 0 && (
                 <div className="game-screenshots">
                     {screenshots.slice(0, 3).map((shot, idx) => (
@@ -46,6 +56,20 @@ const GameCard = ({ game }) => {
                             )}
                         </div>
                     ))}
+                </div>
+            )}
+
+            {videoId && (
+                <div className="game-video">
+                    <iframe
+                        width="100%"
+                        height="600"
+                        src={`https://www.youtube.com/embed/${videoId}`}
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    ></iframe>
                 </div>
             )}
 
