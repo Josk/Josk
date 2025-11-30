@@ -38,7 +38,10 @@ const GameCard = ({ game }) => {
 
                 <div className="game-tags">
                     {game.tags.map(tag => (
-                        <span key={tag} className="tag">{tag}</span>
+                        <span key={tag.label} className="tag">
+                            {tag.icon && <img src={resolvePath(tag.icon)} alt="" className="tag-icon" />}
+                            {tag.label}
+                        </span>
                     ))}
                 </div>
             </div>
