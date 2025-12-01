@@ -36,10 +36,7 @@ const GameCard = ({ game }) => {
                         <div className="game-meta">
                             <span className="game-role">{game.role}</span>
                             {game.teamSize && (
-                                <span
-                                    className="game-team-size"
-                                    title={game.teamSizeLabel || "Team Size"}
-                                >
+                                <span className="game-team-size">
                                     <img src={resolvePath('/icons/team.svg')} alt="Team size" className="team-icon" />
                                     <span className="team-size-label">{game.teamSizeLabel || "Team Size"}:</span>
                                     {game.teamSize}

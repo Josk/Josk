@@ -155,7 +155,6 @@
     display: flex;
     align-items: center;
     gap: 0.4rem;
-    cursor: help;
 }
 
 .team-icon {
@@ -172,7 +171,7 @@
 }
 
 .team-size-label {
-    display: none;
+    margin-right: 0.3rem;
 }
 
 @media (max-width: 768px) {
@@ -205,10 +204,5 @@
 
     .game-tags {
         justify-content: center;
-    }
-
-    .team-size-label {
-        display: inline;
-        margin-right: 0.3rem;
     }
 }
