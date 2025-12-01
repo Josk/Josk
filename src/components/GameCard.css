@@ -97,112 +97,19 @@
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.screenshot-preview {
-    flex: 1;
     position: relative;
-    cursor: pointer;
-    overflow: hidden;
-    transition: var(--transition);
+    width: 100%;
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect Ratio */
+    height: 0;
 }
 
-.screenshot-preview:hover {
-    flex: 1.5;
-}
-
-.game-card {
-    background: var(--bg-primary);
-    border-radius: var(--radius-md);
-    overflow: hidden;
-    transition: var(--transition);
-    display: flex;
-    flex-direction: column;
+.game-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-}
-
-.game-card:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-}
-
-.game-content {
-    padding: 1.5rem;
-    flex-grow: 1;
-    display: flex;
-    gap: 1.5rem;
-    align-items: flex-start;
-}
-
-.game-logo {
-    width: 60px;
-    height: 60px;
-    object-fit: contain;
-    background: white;
-    border-radius: var(--radius-md);
-    flex-shrink: 0;
-}
-
-.game-info {
-    flex: 1;
-}
-
-.game-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-bottom: 1rem;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-
-.game-header h3 {
-    margin: 0;
-    font-size: 1.5rem;
-    color: var(--accent);
-}
-
-.game-role {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-    font-weight: 600;
-    background: var(--bg-secondary);
-    padding: 0.2rem 0.6rem;
-    border-radius: var(--radius-sm);
-}
-
-.game-description {
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
-}
-
-.game-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-
-.tag {
-    font-size: 0.8rem;
-    color: var(--text-primary);
-    border: 1px solid var(--accent);
-    padding: 0.2rem 0.6rem;
-    border-radius: 20px;
-    opacity: 0.8;
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
-}
-
-.tag-icon {
-    width: 1rem;
-    height: 1rem;
-    object-fit: contain;
-}
-
-.game-screenshots {
-    display: flex;
-    height: 350px;
-    background: #000;
 }
 
 .screenshot-preview {
@@ -238,6 +145,32 @@
     font-weight: bold;
 }
 
+.game-team-size {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+    background: var(--bg-secondary);
+    padding: 0.2rem 0.6rem;
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: help;
+}
+
+.team-icon {
+    width: 1rem;
+    height: 1rem;
+    object-fit: contain;
+}
+
+.game-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
+
 @media (max-width: 768px) {
     .game-content {
         flex-direction: column;
@@ -246,29 +179,27 @@
     .game-logo {
         width: 48px;
         height: 48px;
+        align-self: center;
     }
 
     .game-screenshots {
         height: 200px;
     }
-}
 
-.game-video {
-    margin-top: 1rem;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    /* 16:9 Aspect Ratio */
-    height: 0;
-}
+    .game-header {
+        display: flex;
+        justify-content: center;
+    }
 
-.game-video iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    .game-meta {
+        align-items: center;
+    }
+
+    .game-description {
+        text-align: center;
+    }
+
+    .game-tags {
+        justify-content: center;
+    }
 }
