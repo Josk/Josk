@@ -104,7 +104,7 @@
                 "logo": "/logos/harry.avif",
                 "description": "Mobile adaptation of a french tv program. The goal is to find words based on letters rotating around themselves in rings.",
                 "role": "Lead Mobile Programmer",
-                "teamSize": 1,
+                "teamSize": 2,
                 "tags": [
                     {
                         "label": "C#",
@@ -135,7 +135,7 @@
                 "logo": "/logos/pp.png",
                 "description": "Take control of a plane during takeoff and make it fly as far as possible despite losing an engine on the nearest runway!",
                 "role": "Lead Mobile Programmer",
-                "teamSize": 1,
+                "teamSize": 3,
                 "tags": [
                     {
                         "label": "C#",
