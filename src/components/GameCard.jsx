@@ -69,7 +69,6 @@ const GameCard = ({ game }) => {
                 <div className="game-video">
                     <iframe
                         width="100%"
-                        height="600"
                         src={`https://www.youtube.com/embed/${videoId}`}
                         title="YouTube video player"
                         frameBorder="0"
