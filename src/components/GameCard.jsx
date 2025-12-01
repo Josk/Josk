@@ -41,6 +41,7 @@ const GameCard = ({ game }) => {
                                     title={game.teamSizeLabel || "Team Size"}
                                 >
                                     <img src={resolvePath('/icons/team.svg')} alt="Team size" className="team-icon" />
+                                    <span className="team-size-label">{game.teamSizeLabel || "Team Size"}:</span>
                                     {game.teamSize}
                                 </span>
                             )}

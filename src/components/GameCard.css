@@ -171,6 +171,10 @@
     gap: 0.5rem;
 }
 
+.team-size-label {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .game-content {
         flex-direction: column;
@@ -201,5 +205,10 @@
 
     .game-tags {
         justify-content: center;
+    }
+
+    .team-size-label {
+        display: inline;
+        margin-right: 0.3rem;
     }
 }
