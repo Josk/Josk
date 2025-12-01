@@ -232,5 +232,53 @@
                 "youtube": "https://www.youtube.com/watch?v=teyCUEoCexo"
             }
         ]
+    },
+    {
+        "id": "isart",
+        "name": "ISART Digital",
+        "logo": "/logos/isart.jpeg",
+        "description": "ISART Digital is a private higher-education school, founded in 2001, specializing in training for the creative and technical industries of video games, 3D-FX animation and sound/music design.",
+        "games": [
+            {
+                "id": "froggy",
+                "title": "Froggy Tales",
+                "logo": "/logos/froggytales.png",
+                "description": "Froggy Tales is a party games aimed at android tablet devices. You can play with up to 4 friends on the same tablet in many mini games. Create potions, race your friends, catch as many bugs as possible, or be the best DJ frog in an origami styled game.",
+                "role": "Game Programmer",
+                "teamSize": "10ish",
+                "tags": [
+                    {
+                        "label": "C#",
+                        "icon": "/icons/csharp.png"
+                    },
+                    {
+                        "label": "Unity",
+                        "icon": "/icons/unity.svg"
+                    }
+                ],
+                "screenshots": [],
+                "youtube": "https://www.youtube.com/watch?v=qRgZABnDpGk"
+            },
+            {
+                "id": "superespace",
+                "title": "SuperEspace",
+                "logo": "/logos/isart.jpeg",
+                "description": "SuperEspace is a mobile tactical game where you need to exterminate the enemy to win. Conquer planets with your ships, send devastating attacks, trap your ennemy with the black hole. Can be played against an AI or a friend locally on the same device.",
+                "role": "Game Programmer",
+                "teamSize": "2",
+                "tags": [
+                    {
+                        "label": "C#",
+                        "icon": "/icons/csharp.png"
+                    },
+                    {
+                        "label": "Unity",
+                        "icon": "/icons/unity.svg"
+                    }
+                ],
+                "screenshots": [],
+                "youtube": "https://youtu.be/jFuAUuWJ2bs"
+            }
+        ]
     }
 ]
