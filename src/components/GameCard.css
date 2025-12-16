@@ -40,6 +40,7 @@
     margin-bottom: 1rem;
     flex-wrap: wrap;
     gap: 0.5rem;
+    flex-direction: column;
 }
 
 .game-header h3 {
@@ -166,7 +167,7 @@
 .game-meta {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     gap: 0.5rem;
 }
 
@@ -192,6 +193,7 @@
     .game-header {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .game-meta {

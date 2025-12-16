@@ -1,0 +1,15 @@
+.profile-skill-item {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: var(--bg-card);
+}
+
+.profile-skill-item img {
+    width: 70%;
+    height: 70%;
+}

@@ -1,7 +1,8 @@
-import { useState } from 'react'
 import './App.css'
 import portfolioData from './data/portfolio.json'
+import profileInfo from './data/profile_info.json'
 import CompanySection from './components/CompanySection'
+import ProfileSkillItem from './components/ProfileSkillItem'
 
 import { resolvePath } from './utils'
 
@@ -9,11 +10,16 @@ function App() {
   return (
     <div className="app-container">
       <header className="main-header">
-        <img src={resolvePath('/profile/profile_pic.jpeg')} alt="Romain Pedra" className="profile-pic" />
-        <h1>Romain Pedra</h1>
+        <img src={resolvePath(profileInfo.profile_picture)} alt={profileInfo.name} className="profile-pic" />
+        <h1>{profileInfo.name}</h1>
         <p className="intro-text">
-          12 years Game Developer & UI Programmer. Passionate about UI development and creating immersive experiences.
+          {profileInfo.description}
         </p>
+        <div className="skills-container">
+        {profileInfo.skills.map((skill) => (
+          <ProfileSkillItem key={skill} skill={skill} />
+        ))}
+        </div>
       </header>
 
       <main>

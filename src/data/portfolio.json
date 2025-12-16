@@ -11,7 +11,7 @@
                 "logo": "/logos/amplitude_studios_logo.jpeg",
                 "description": "Working on an unanounced game. Team size varies but peaks at 6 persons.",
                 "role": "Lead UI Programmer",
-                "teamSize": 6,
+                "teamSize": "0-6",
                 "teamSizeLabel": "Managed Team Size",
                 "screenshots": [],
                 "tags": [
@@ -36,7 +36,7 @@
                 "title": "Endless Dungeon",
                 "description": "Plunge into an abandoned space station alone or with friends in co-op, recruit a team of shipwrecked heroes, and protect your crystal against never-ending waves of monsters... or die trying, get reloaded, and try again.",
                 "role": "Lead UI Programmer",
-                "teamSize": 2,
+                "teamSize": "1-2",
                 "teamSizeLabel": "Managed Team Size",
                 "screenshots": [
                     "/screenshots/ted1.png",
@@ -94,7 +94,7 @@
                 "logo": "/logos/am.webp",
                 "description": "Airlines Manager is a free aviation management game. In the game, you manage your airline like a real tycoon and strategize to become the greatest CEO in the aviation world!",
                 "role": "Lead Mobile Programmer",
-                "teamSize": 1,
+                "teamSize": "0-1",
                 "teamSizeLabel": "Managed Team Size",
                 "screenshots": [
                     "/screenshots/am1.png",
@@ -203,7 +203,7 @@
                 "logo": "/logos/sq.webp",
                 "description": "SpeedQuizz is a mobile quiz game where players can test their knowledge. You progress through multiple environments, in a car and can compare your progression with your friends.",
                 "role": "Lead Mobile Programmer",
-                "teamSize": 1,
+                "teamSize": "0-1",
                 "teamSizeLabel": "Managed Team Size",
                 "tags": [
                     {
@@ -254,6 +254,10 @@
                     {
                         "label": "Unity",
                         "icon": "/icons/unity.svg"
+                    },
+                    {
+                        "label": "Android",
+                        "icon": "/icons/android.png"
                     }
                 ],
                 "screenshots": [],
@@ -274,6 +278,10 @@
                     {
                         "label": "Unity",
                         "icon": "/icons/unity.svg"
+                    },
+                    {
+                        "label": "Android",
+                        "icon": "/icons/android.png"
                     }
                 ],
                 "screenshots": [],

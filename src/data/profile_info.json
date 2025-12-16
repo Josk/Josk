@@ -1,0 +1,35 @@
+{
+    "name": "Romain Pedra",
+    "description": "12 years Game Developer & UI Programmer. Passionate about UI development and creating immersive experiences.",
+    "profile_picture": "/profile/profile_pic.jpeg",
+    "skills": [
+        {
+            "name": "C#",
+            "icon": "/icons/csharp.png"
+        },
+        {
+            "name": "UI Development",
+            "icon": "/icons/ui.png"
+        },
+        {
+            "name": "Unity",
+            "icon": "/icons/unity.svg"
+        },
+        {
+            "name": "Console Development",
+            "icon": "/icons/console.png"
+        },
+        {
+            "name": "PC Development",
+            "icon": "/icons/pc.png"
+        },
+        {
+            "name": "Mobile Development",
+            "icon": "/icons/mobile.png"
+        },
+        {
+            "name": "Figma understanding",
+            "icon": "/icons/figma.png"
+        }
+    ]
+}
