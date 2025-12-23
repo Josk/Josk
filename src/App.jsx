@@ -5,6 +5,7 @@ import CompanySection from './components/CompanySection'
 import ProfileSkillItem from './components/ProfileSkillItem'
 
 import { resolvePath } from './utils'
+import ProfileLinkItem from './components/ProfileLinkItem'
 
 function App() {
   return (
@@ -12,6 +13,11 @@ function App() {
       <header className="main-header">
         <img src={resolvePath(profileInfo.profile_picture)} alt={profileInfo.name} className="profile-pic" />
         <h1>{profileInfo.name}</h1>
+        <div className="links-container">
+        {profileInfo.links.map((link) => (
+          <ProfileLinkItem key={link} link={link} />
+        ))}
+        </div>
         <p className="intro-text">
           {profileInfo.description}
         </p>

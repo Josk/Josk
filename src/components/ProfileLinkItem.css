@@ -1,0 +1,20 @@
+.profile-link-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: var(--bg-card);
+}
+
+.profile-link-item:hover {
+    background-color: var(--accent);
+    color: var(--text-on-accent);
+}
+
+.profile-link-item img {
+    width: 70%;
+    height: 70%;
+}

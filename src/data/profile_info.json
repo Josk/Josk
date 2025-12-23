@@ -2,6 +2,18 @@
     "name": "Romain Pedra",
     "description": "12 years Game Developer & UI Programmer. Passionate about UI development and creating immersive experiences.",
     "profile_picture": "/profile/profile_pic.jpeg",
+    "links": [
+        {
+            "name": "GitHub",
+            "icon": "/icons/github.svg",
+            "url": "https://github.com/Josk"
+        },
+        {
+            "name": "LinkedIn",
+            "icon": "/icons/linkedin.svg",
+            "url": "https://www.linkedin.com/in/romain-pedra-2b4a0523/"
+        }
+    ],
     "skills": [
         {
             "name": "C#",
@@ -30,6 +42,10 @@
         {
             "name": "Figma understanding",
             "icon": "/icons/figma.png"
+        },
+        {
+            "name": "Leadership",
+            "icon": "/icons/leadership.svg"
         }
     ]
 }
