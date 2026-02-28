@@ -72,7 +72,6 @@ h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
   color: var(--text-primary);
-  border-bottom: 2px solid var(--bg-secondary);
   padding-bottom: 0.5rem;
 }
 

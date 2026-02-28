@@ -13,6 +13,7 @@ function App() {
       <header className="main-header">
         <img src={resolvePath(profileInfo.profile_picture)} alt={profileInfo.name} className="profile-pic" />
         <h1>{profileInfo.name}</h1>
+        <h2>{profileInfo.role}</h2>
         <div className="links-container">
         {profileInfo.links.map((link) => (
           <ProfileLinkItem key={link} link={link} />
