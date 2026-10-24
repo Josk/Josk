@@ -49,6 +49,17 @@
     color: var(--accent);
 }
 
+.game-title-link {
+    color: inherit;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.game-title-link:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+}
+
 .game-role {
     font-size: 0.9rem;
     color: var(--text-secondary);
@@ -79,6 +90,13 @@
     display: flex;
     align-items: center;
     gap: 0.4rem;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.tag-link:hover {
+    opacity: 1;
+    background: var(--accent);
 }
 
 .tag-icon {

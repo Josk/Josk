@@ -32,7 +32,15 @@ const GameCard = ({ game }) => {
                 {game.logo && <img src={resolvePath(game.logo)} alt={`${game.title} logo`} className="game-logo" />}
                 <div className="game-info">
                     <div className="game-header">
-                        <h3>{game.title}</h3>
+                        <h3>
+                            {game.url ? (
+                                <a href={game.url} target="_blank" rel="noopener noreferrer" className="game-title-link">
+                                    {game.title}
+                                </a>
+                            ) : (
+                                game.title
+                            )}
+                        </h3>
                         <div className="game-meta">
                             <span className="game-role">{game.role}</span>
                             {game.teamSize && (
@@ -49,10 +57,23 @@ const GameCard = ({ game }) => {
 
                     <div className="game-tags">
                         {game.tags.map(tag => (
-                            <span key={tag.label} className="tag">
-                                {tag.icon && <img src={resolvePath(tag.icon)} alt="" className="tag-icon" />}
-                                {tag.label}
-                            </span>
+                            tag.url ? (
+                                <a
+                                    key={tag.label}
+                                    href={tag.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="tag tag-link"
+                                >
+                                    {tag.icon && <img src={resolvePath(tag.icon)} alt="" className="tag-icon" />}
+                                    {tag.label}
+                                </a>
+                            ) : (
+                                <span key={tag.label} className="tag">
+                                    {tag.icon && <img src={resolvePath(tag.icon)} alt="" className="tag-icon" />}
+                                    {tag.label}
+                                </span>
+                            )
                         ))}
                     </div>
                 </div>

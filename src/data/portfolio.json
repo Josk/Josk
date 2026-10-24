@@ -296,5 +296,49 @@
                 "youtube": "https://youtu.be/jFuAUuWJ2bs"
             }
         ]
+    },
+    {
+        "id": "personal",
+        "name": "Personal Projects",
+        "description": "Applications and projects built in my spare time, leveraging AI-assisted development.",
+        "games": [
+            {
+                "id": "chargetrack",
+                "title": "ChargeTrack: EV Cost",
+                "url": "https://play.google.com/store/apps/details?id=fr.romainpedra.chargetrack",
+                "logo": "/logos/chargetrack.png",
+                "description": "Built in my spare time using AI-assisted development, ChargeTrack is a mobile application designed for electric vehicle owners to track, manage, and analyze charging sessions and expenses at home or at public stations. Features an extensive EV database, consumption and cost-per-km statistics, and 100% offline local storage.",
+                "role": "Creator & Developer",
+                "teamSize": "1",
+                "screenshots": [
+                    "/screenshots/ct1.png",
+                    "/screenshots/ct2.png",
+                    "/screenshots/ct3.png",
+                    "/screenshots/ct4.png",
+                    "/screenshots/ct5.png",
+                    "/screenshots/ct6.png"
+                ],
+                "tags": [
+                    {
+                        "label": "Made with AI",
+                        "icon": "/icons/ai.svg"
+                    },
+                    {
+                        "label": "React",
+                        "icon": "/icons/react.svg"
+                    },
+                    {
+                        "label": "UI",
+                        "icon": "/icons/ui.png"
+                    },
+                    {
+                        "label": "Android (Google Play)",
+                        "icon": "/icons/android.png",
+                        "url": "https://play.google.com/store/apps/details?id=fr.romainpedra.chargetrack"
+                    }
+                ],
+                "youtube": ""
+            }
+        ]
     }
 ]
