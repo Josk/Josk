@@ -6,14 +6,18 @@
         "description": "Founded in 2011, Amplitude Studios is famous for its strategy and 4X games. It's a community centric game studio, that created a community platform called \"Games2Gether\". The studio is well knowned for it's 4X games: Endless Space, Endless Legend or Humankind.",
         "games": [
             {
-                "id": "unanounced",
-                "title": "Unanounced Project",
-                "logo": "/logos/amplitude_studios_logo.jpeg",
-                "description": "Working on an unannounced game, I'm managing a team varying from 0 to 6 developers. Close collaboration with UX/UI designers.",
+                "id": "humankind-2",
+                "title": "Humankind 2",
+                "logo": "/logos/hk2.png",
+                "description": "Build a civilization that spans the ages in this historical turn-based strategy game. Combine evolving cultures, raise cities, command armies and expand your empire as a changing climate reshapes the world and your path through history.",
                 "role": "Lead UI Programmer",
                 "teamSize": "0-6",
                 "teamSizeLabel": "Managed Team Size",
-                "screenshots": [],
+                "screenshots": [
+                    "/screenshots/hk2_1.jpg",
+                    "/screenshots/hk2_2.jpg",
+                    "/screenshots/hk2_3.png"
+                ],
                 "tags": [
                     {
                         "label": "C#",
@@ -26,9 +30,13 @@
                     {
                         "label": "Unity",
                         "icon": "/icons/unity.svg"
+                    },
+                    {
+                        "label": "Steam",
+                        "icon": "/icons/steam.svg"
                     }
                 ],
-                "youtube": ""
+                "youtube": "https://www.youtube.com/watch?v=O4ZTZafqFOw"
             },
             {
                 "id": "endless-dungeon",
